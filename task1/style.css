@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f1c40f;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #f1c40f;
+}
+
+.top-bar .contact-info span {
+    margin-right: 15px;
+}
+
+.top-bar .user-actions a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1c40f;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.hero {
+    background-image: url('./img/hero.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #f1c40f;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #f1c40f;
+    color: #121212;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #121212;
+    color: #f1c40f;
+    border: 2px solid #f1c40f;
+}
+
+.menu {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1c1c1c;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #f1c40f;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.menu-item {
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box;
+    max-width: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.menu-item img:hover {
+    transform: scale(1.1);
+}
+
+.menu-item p {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #f1c40f;
+}
